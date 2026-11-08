@@ -22,7 +22,8 @@ ISA_FLAGS := -DUSE_AVX=OFF \
              -DUSE_LZCNT=OFF \
              -DUSE_TZCNT=OFF \
              -DUSE_F16C=OFF \
-             -DUSE_FMADD=OFF
+             -DUSE_FMADD=OFF \
+			 -DUSE_ASSERTS=ON
 
 .PHONY: all linux windows clean clean-linux clean-windows
 
