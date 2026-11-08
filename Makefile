@@ -8,7 +8,7 @@
 #   make clean      remove both build directories
 #   make clean-linux / make clean-windows
 
-JOLT_DIR   := _deps/JoltPhysics
+JOLT_DIR   := .
 JOLT_BUILD := $(JOLT_DIR)/Build
 JOBS       := 12
 
