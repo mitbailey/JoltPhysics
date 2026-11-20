@@ -5,4 +5,5 @@
 /MinGW*
 /Doxygen
 /CoverageReport
-/Win_Debug/Win_Distribution
+/Win_Debug
+/Win_Distribution
